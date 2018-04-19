@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.alexanderschink.qicksum.MainActivity">
+
+    <TextView
+        android:id="@+id/sumText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/_0_00"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:columnCount="3"
+        android:rowCount="3">
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="ButtonPressed"
+            android:text="@string/_1"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="ButtonPressed"
+            android:text="@string/_2"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="ButtonPressed"
+            android:text="@string/_3"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="ButtonPressed"
+            android:text="@string/_4"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="ButtonPressed"
+            android:text="@string/_5"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="ButtonPressed"
+            android:text="@string/_6"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="ButtonPressed"
+            android:text="@string/_7"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="ButtonPressed"
+            android:text="@string/_8"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="ButtonPressed"
+            android:text="@string/_9"
+            android:textSize="24sp" />
+
+    </GridLayout>
+
+
+    <Button
+        android:id="@+id/buttonFrac"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="FractionPressed"
+        android:text="@string/fraction"
+        android:textSize="24sp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/settings"
+        android:textSize="24sp" />
+
+</LinearLayout>
